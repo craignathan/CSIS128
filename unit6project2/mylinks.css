@@ -1,0 +1,18 @@
+body{
+    background-color:black;
+    color:white;
+}
+a:link{
+    color: red;
+}
+a:hover{
+    background-color: red;
+    text-decoration: none;
+    color: yellow;
+}
+a:visited{
+    color: gray;
+}
+ul{
+    list-style-type: none;
+}
