@@ -1,0 +1,15 @@
+.sprite{
+    height:52px;
+    width:182px;
+    background: url('./css-sprites.jpg') 0px 0px;
+}
+.sprite:hover{
+    height: 52px;
+    width: 182px;
+    background: url('./css-sprites.jpg') 0px 100px;
+}
+.sprite:active{
+    height: 52px;
+    width: 182px;
+    background: url('./css-sprites.jpg') 0px 52px;
+}
