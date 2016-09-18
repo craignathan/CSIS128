@@ -1,0 +1,12 @@
+table, tr, th {
+    border: 1px solid darkgrey;
+    background-color: grey
+
+}
+th {
+    font-size: 1.5em;
+}
+body {
+    background-color: black;
+    color: white;
+}
