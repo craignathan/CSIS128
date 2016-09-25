@@ -1,0 +1,9 @@
+table{
+    border: inset ;
+    border-color:#333;
+    padding:10px;
+    margin:20px;
+}
+tr{
+    vertical-align: top;
+}
