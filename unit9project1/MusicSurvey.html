@@ -1,0 +1,47 @@
+<DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="MusicSurvey.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="MusicSurvey.js"></script>
+</head>
+<body>
+    <form action="http://www.markmurtha.com/csis128/readform.asp">
+        <fieldset id="form">
+            <legend>Music Survey:</legend>
+            Name: <input type="text" id="name">
+            <br>
+            E-Mail Address: <input type="email" id="email">
+            <br>
+            <fieldset>
+                <legend>Select your favorite types of music</legend>
+                <form>
+                    <input type="checkbox" name="musicType" id="rock" value="Rock"> Rock<br>
+                    <input type="checkbox" name="musicType" id="hardrock" value="Hard Rock"> Hard Rock<br>
+                    <input type="checkbox" name="musicType" id="metal" value="Metal"> Metal<br>
+                    <input type="checkbox" name="musicType" id="heavymetal" value="Heavy Metal"> Heavy Metal<br>
+                    <input type="checkbox" name="musicType" id="pop" value="Pop"> Pop<br>
+                    <input type="checkbox" name="musicType" id="r&b" value="R&B"> R&B<br>
+                    <input type="checkbox" name="musicType" id="hiphop" value="Hip Hop"> Hip Hop<br>
+                    <input type="checkbox" name="musicType" id="punk" value="Punk"> Punk<br>
+                    <input type="checkbox" name="musicType" id="electronic" value="Electronic"> Electronic<br>
+                    <input type="checkbox" name="musicType" id="jazz" value="Jazz"> Jazz<br>
+                    <input type="checkbox" name="musicType" id="classical" value="Classical"> Classical<br>
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>Select how often you purchase music</legend>
+                <form>
+                    <input type="radio" name="purchase" id="radio1" value="Often"> Often<br>
+                    <input type="radio" name="purchase" id="radio2" value="Occasionally"> Occasionally<br>
+                    <input type="radio" name="purchase" id="radio3" value="Never"> Never
+                </form>
+            </fieldset>
+            What role does music play in your life?:<textarea id="textbox" cols=61 rows=3></textarea><br>
+            <input type="button" onclick="validate()" value="Submit"></input>
+            <input type="button" onclick="reset()" value="Reset"></input>
+        </fieldset>
+    </form>
+    <p>Nathan Craig | <a href = "mailto:s1422335@student.mcckc.edu">s1422335@student.mcckc.edu</a></p>
+</body>
+</html>
