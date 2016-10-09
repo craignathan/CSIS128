@@ -30,22 +30,17 @@ body{
     background: grey;
     margin: 0px;
 }
-.pagebodyintro {
-    text-align: center;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1em;
-}
 .pagebodywelcome {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.5em;
+    font-size: 2em;
 }
-.nav{
+.nav {
     border: grey;
     background-color: grey;
     text-align: center;
 }
-button{
+button {
     background: -webkit-gradient(linear, left top, left bottom, from(lightgrey), to(grey));
     background: -moz-linear-gradient(bottom,  lightgrey,  grey);
     filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=lightgrey, endColorstr=grey);
@@ -53,16 +48,27 @@ button{
     font-family: "Times New Roman", Times, serif;
     font-size: 1em;
 }
-p{
+p {
     margin: 0px;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     font-size: 1em;
 }
-#picnavT{
-    margin: 0px auto;
-    text-align: center;
+.expensive {
+    background-color: lightgrey;
+    border: solid 2px black;
     font-family: "Times New Roman", Times, serif;
-    font-size: 1.45em;
+    font-size: 1.2em;
+    width: 50%;
+    
 }
-
+.cheap {
+    background-color: lightgrey;
+    border: solid 2px black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    width: 50%;
+}
+#swordcomparison {
+    width: 100%;
+}
