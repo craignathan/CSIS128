@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="home.css"/>
+        <link rel='shortcut icon' href='./pictures/favicon.PNG' type='image/x-icon'/ >
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="recommendvendor.js"></script>
+    </head>
+    <body>
+        <div id=wrap>
+            <table id="header">
+                <tbody>
+                    <tr>
+                        <td colspan=4>
+                            <p class="title" onclick="window.location.href='./home.html'">Tetra Blade's</p>
+                        </td>
+                        <td>
+                            <img class="thumbnail" src="./pictures/cross_sword.PNG" style="width:75%;height:auto;" onclick="window.location.href='./home.html'">
+                        </td>
+                    </tr>
+                    <tr class="nav">
+                        <td class="nav"><button id="swordtype" onclick="window.location.href='./swordtypes.html'">Sword Type's</button></td>
+                        <td class="nav"><button id="swordmetal" onclick="window.location.href='./swordmetal.html'">Sword Metal's</button></td>
+                        <td class="nav"><button id="swordbuying" onclick="window.location.href='./swordcomparison.html'">Sword Price Comparison</button></td>
+                        <td class="nav"><button id="katana" onclick="window.location.href='./katana.html'">Katana's</button></td>
+                        <td class="nav"><button id="swordvendor" onclick="window.location.href='./recommendvendor.html'">Sword Vendor's</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pagebody">
+                <div class="pagebodywelcome">
+                    Recommended Sword Vendor's
+                </div>
+                <table id="recommendedvendor">
+                    <tr>
+                        <td class="webName"><a href="http://www.coldsteel.com/products-by-cold-steel/swords-by-cold-steel.html" target="_blank">Cold Steel</a></td>
+                        <td><img src="./pictures/coldsteel.PNG" onclick="window.location.href='http://www.coldsteel.com/products-by-cold-steel/swords-by-cold-steel.html'" style="width:600px;height:400px"></td>
+                    </tr>
+                    <tr>
+                        <td class="webName"><a href="http://www.swordsoftheeast.com/">Swords of the East</a></td>
+                        <td><img src="./pictures/swordoftheeast.jpg" onclick="window.location.href='http://www.swordsoftheeast.com/'" style="width:600px;height:400px"></td>
+                    </tr>
+                    <tr>
+                        <td class="webName"><a href="http://kultofathena.com/" target="_blank">Kult of Athena</a></td>
+                        <td><img src="./pictures/kultofathena.jpg" onclick="window.location.href='http://kultofathena.com/'" style="width:600px;height:400px"></td>
+                    </tr>
+                </table>
+                <form>
+                <h3>Let us know any webstore's you think are good or bad sword sellers<br></h3>
+                <table> 
+                    <tbody>
+                        <tr>
+                            <td>Firstname:</td>
+                            <td> <input type="text" id="firstname" name="firstname"></td>
+                        </tr>
+                        <tr>
+                            <td>Lastname:</td>
+                            <td><input type="text" id="lastname" name="lastname"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="text" id="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Webstore url/name:</td>
+                            <td><input type="text" id="opinion" name="opinion"></td>
+                        </tr>
+                        <tr>
+                            <td colspan=2>Your rating of the webstore 1-5 (1 = Terrible, 5 = Amazing)</td>
+                        </tr>
+                        <tr>
+                            <td colspan=2>
+                                <form>
+                                    <input type="radio" name="rating" id="rating" value=1> 1
+                                    <input type="radio" name="rating" id="rating" value=2> 2
+                                    <input type="radio" name="rating" id="rating" value=3> 3
+                                    <input type="radio" name="rating" id="rating" value=4> 4
+                                    <input type="radio" name="rating" id="rating" value=5> 5 
+                                </form>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="button" onclick='validate()' value="Submit">
+            </form>
+                <div id="footer">
+                    <h3>Nathan Craig | <a href = "mailto:s1422335@student.mcckc.edu" target="_blank">s1422335@student.mcckc.edu</h3>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
